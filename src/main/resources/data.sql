@@ -1,0 +1,1 @@
+insert into words1 values(1,'fishy'),(2,'crucks');
