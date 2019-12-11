@@ -1,1 +1,19 @@
 
+#Comment_Validator is a RESTful service that can validate and filter the objectionable content from posted comments.
+
+#Prerequisites - Java should be installed in your system.
+
+#Installing/Run application -  Open command prompt and run the command: java -jar Comment-Validator-0.0.1-SNAPSHOT-boot.jar
+
+#Exposed APIs 
+  # http://localhost:5006/comments handels requests:
+      GET-> For retrieving comments.
+      POST-> For adding new comments.
+
+  #http://localhost:5006/obj handels:
+    GET-> Request for retrieving objectionable words.
+    POST-> Adding some new objectionable words.
+    PUT-> Existing some word
+    DELETE-> Deleting some existing objectionable word.
+
+#Author Shivam Agarwal
